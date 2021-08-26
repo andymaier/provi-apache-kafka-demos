@@ -1,0 +1,238 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Consumer_A",
+            "request": "launch",
+            "mainClass": "de.predic8.a_simple.Consumer_A",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch Consumer_B",
+            "request": "launch",
+            "mainClass": "de.predic8.a_simple.Consumer_B",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch Consumer_C",
+            "request": "launch",
+            "mainClass": "de.predic8.a_simple.Consumer_C",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleProducer",
+            "request": "launch",
+            "mainClass": "de.predic8.a_simple.SimpleProducer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch OffsetConsumer",
+            "request": "launch",
+            "mainClass": "de.predic8.b_offset.OffsetConsumer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch PerformanceProducer",
+            "request": "launch",
+            "mainClass": "de.predic8.b_offset.PerformanceProducer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomProducer",
+            "request": "launch",
+            "mainClass": "de.predic8.c_queueing.RandomProducer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleConsumer",
+            "request": "launch",
+            "mainClass": "de.predic8.c_queueing.SimpleConsumer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch RetentionCompactConsumer",
+            "request": "launch",
+            "mainClass": "de.predic8.d_log_compaction.RetentionCompactConsumer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleProducer(1)",
+            "request": "launch",
+            "mainClass": "de.predic8.d_log_compaction.SimpleProducer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch RetentionDeleteConsumer",
+            "request": "launch",
+            "mainClass": "de.predic8.d_log_retention.RetentionDeleteConsumer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleProducer(2)",
+            "request": "launch",
+            "mainClass": "de.predic8.d_log_retention.SimpleProducer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleConsumer(1)",
+            "request": "launch",
+            "mainClass": "de.predic8.e_replication.SimpleConsumer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleProducer(3)",
+            "request": "launch",
+            "mainClass": "de.predic8.e_replication.SimpleProducer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberApp",
+            "request": "launch",
+            "mainClass": "de.predic8.f_streams.NumberApp",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberProducer",
+            "request": "launch",
+            "mainClass": "de.predic8.f_streams.NumberProducer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch VerkaeufeApp",
+            "request": "launch",
+            "mainClass": "de.predic8.f_streams.VerkaeufeApp",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch VerkaeufeProducer",
+            "request": "launch",
+            "mainClass": "de.predic8.f_streams.VerkaeufeProducer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimestampConsumer",
+            "request": "launch",
+            "mainClass": "de.predic8.g_timestamps.TimestampConsumer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimestampProducer",
+            "request": "launch",
+            "mainClass": "de.predic8.g_timestamps.TimestampProducer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch PerformanceConsumer",
+            "request": "launch",
+            "mainClass": "de.predic8.h_performance.PerformanceConsumer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch PerformanceProducer(1)",
+            "request": "launch",
+            "mainClass": "de.predic8.h_performance.PerformanceProducer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeaderConsumer",
+            "request": "launch",
+            "mainClass": "de.predic8.i_headers.HeaderConsumer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeaderProducer",
+            "request": "launch",
+            "mainClass": "de.predic8.i_headers.HeaderProducer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArtikelConsumer",
+            "request": "launch",
+            "mainClass": "de.predic8.j_serialization.ArtikelConsumer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArtikelProducer",
+            "request": "launch",
+            "mainClass": "de.predic8.j_serialization.ArtikelProducer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch TransactionalReadWrite",
+            "request": "launch",
+            "mainClass": "de.predic8.k_transactions.TransactionalReadWrite",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch Consumer",
+            "request": "launch",
+            "mainClass": "de.predic8.l_manual_offset_commit.Consumer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleProducer(4)",
+            "request": "launch",
+            "mainClass": "de.predic8.l_manual_offset_commit.SimpleProducer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch FailureProducer",
+            "request": "launch",
+            "mainClass": "de.predic8.l_offset_control.FailureProducer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleConsumer(2)",
+            "request": "launch",
+            "mainClass": "de.predic8.l_offset_control.SimpleConsumer",
+            "projectName": "akafka-demos"
+        },
+        {
+            "type": "java",
+            "name": "Launch Consumer_A(1)",
+            "request": "launch",
+            "mainClass": "de.predic8.z_simple.Consumer_A",
+            "projectName": "akafka-demos"
+        }
+    ]
+}

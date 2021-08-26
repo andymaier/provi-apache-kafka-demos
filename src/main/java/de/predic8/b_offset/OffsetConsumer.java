@@ -35,10 +35,15 @@ public class OffsetConsumer {
             if (records.count() == 0)
                 continue;
 
-            System.out.println(" Count: " + records.count());
+            //System.out.println(" Count: " + records.count());
 
-            for (ConsumerRecord<String, String> record : records)
-                System.out.printf("offset= %d, key= %s, value= %s\n", record.offset(), record.key(), record.value());
+            for (ConsumerRecord<String, String> record : records){
+                if(record.offset() % 100_000 == 0){
+                    System.out.printf("offset= %d, key= %s, value= %s\n", record.offset(), record.key(), record.value());
+                } 
+                //System.out.printf("offset= %d, key= %s, value= %s\n", record.offset(), record.key(), record.value());
+            } 
+                
 
         }
     }
